@@ -1,0 +1,40 @@
+ueries to run on the code and their explanation:
+1- suggest(X).
+In this query a user will be asked the following questions with respect to user’s answers:
+What city do you want ? jeddah 
+What type of activity are you looking for ? athletic
+Solo or group activity ? solo
+What is your mood ? happy
+What is your gender ? female
+In or Out door ? indoor
+And then the system will recommend a link suggesting the activity.
+2- activity(X,riyadh,entertaining,solo,sad,male,outdoor).
+In this query we want the system to give us the link of the specified charactaristics which 
+are: city of riyadh, and entertaining activity type, solo, when the mood is sad, for a male, 
+and outdoor activity.
+3- activity('https://instagram.com/strangers.coffee?igshid=YmMyMTA2M2Y=',X,_,_,_
+,_,_).
+This query gives us the city of the specified link, regardless of (mood,gender,activity 
+type,in Or out door, solo Or group).
+4- city(jeddah).
+This query checks if jeddah was a city we defined in our system or not.
+5- gender(X).
+This query lists the gender we have in the system(female/male).
+6- activityUrl('https://www.studytogether.com/', educational, indoor, sad, female).
+This specified query checks if this rule was defined in the system or not.
+7- activity('https://www.fitnesstime.com.sa/en-us', C,A,O,M,G,D).
+This query lists all the information about the specified activity place to the user(the city, 
+mood, gender, activity type, in or out door, solo or group activity).
+8- activity(X,jeddah,food,_,_,_,outdoor).
+This query gives a place for a food activity in jeddah that is outdoor.
+9- mood(X).
+This query lists the moods we defined in our system(Happy-Sad-Enthusiastic-Stressed).
+10-suggest(X).
+In this query a user will be asked the following questions with respect to user’s answers:
+What city do you want ? riyadh 
+What type of activity are you looking for ? educational
+Solo or group activity ? solo
+What is your mood ? stressed
+What is your gender ? male
+In or Out door ? outdoor
+And then the system will recommend a link suggesting the activityز
